@@ -1,11 +1,3 @@
 {
-  "spaceUnits": 2,
-  "insertHintOnTab": true,
-  "closeBrackets": true,
-  "language": {
-    "javascript": {
-      "linting.prefer": "JSHint",
-      "linting.usePreferredOnly": true
-    }
-  }
+    "sbruchmann.staticpreview.basepath": "C:/Users/Graham/Documents/GitHub/ScoutingTemplate/"
 }

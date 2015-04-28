@@ -33,66 +33,90 @@
 		
 		<!-- CSS stylesheets -->
 		<link rel="stylesheet" href="lib/semantic/semantic.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/accordion.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/ad.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/breadcrumb.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/button.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/card.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/checkbox.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/comment.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/dimmer.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/divider.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/dropdown.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/feed.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/flag.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/form.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/grid.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/header.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/icon.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/image.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/input.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/item.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/label.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/list.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/loader.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/menu.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/message.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/modal.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/nag.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/popup.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/progress.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/rail.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/rating.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/reset.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/reveal.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/search.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/segment.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/shape.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/sidebar.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/site.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/statistic.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/step.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/sticky.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/tab.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/table.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/transition.min.css">
+		<link rel="stylesheet" href="lib/semantic/css/video.min.css">
 		<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="app/app.css">
 	</head>
 	<body>
 
 		<!-- Navbar -->
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" ui-sref="home">Project name</a>
-				</div>
-				<div id="navbar" class="collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li ui-sref-active="active"><a ui-sref="home">Home</a></li>
-						<li ui-sref-active="active"><a ui-sref="about">About</a></li>
-						<li ui-sref-active="active"><a ui-sref="contact">Contact</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-								Dropdown <span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li class="dropdown-header">Nav header</li>
-								<li><a href="#">Separated link</a></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-								<i class="fa fa-cog"></i>
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Option 1</a></li>
-								<li><a href="#">Option 2</a></li>
-								<li><a href="#">Option 3</a></li>
-								<li class="divider"></li>
-								<li>
-									<a href="#">
-										<i class="fa fa-power-off"></i>
-										Logout
-									</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
+		<div class="ui top horizontal labeled icon menu visible">
+			<a class="item">
+				<i class="home icon"></i>
+				Home
+			</a>
+			<a class="item">
+				<i class="block layout icon"></i>
+				Topics
+			</a>
+			<a class="item">
+				<i class="smile icon"></i>
+				Friends
+			</a>
+			<a class="item">
+				<i class="calendar icon"></i>
+				History
+			</a>
+			<a class="item">
+				<i class="mail icon"></i>
+				Messages
+			</a>
+			<a class="item">
+				<i class="chat icon"></i>
+				Discussions
+			</a>
+			<a class="item">
+				<i class="trophy icon"></i>
+				Achievements
+			</a>
+			<a class="item">
+				<i class="shop icon"></i>
+				Store
+			</a>
+			<a class="item">
 
 		<!-- Content -->
 		<div class="container-fluid">      
@@ -101,7 +125,7 @@
 
 		<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
 		<script>window.jQuery || document.write('<script src="lib/jquery/jquery-2.1.3.min.js"><\/script>')</script>
-		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+		<script src="lib/semantic/semantic.min.js"></script>
 		<script src="lib/angular/angular.min.js"></script>
 		<script src="lib/angular/angular-resource.min.js"></script>
 		<script src="lib/angular/angular-route.min.js"></script>
