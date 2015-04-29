@@ -10,3 +10,14 @@ FRC Team 955 holds pride in its scouting applications, which, for the past three
 	+	Using the stylish CSS framework Semantic Ui gives us a great variety of styled elements to chose from, plus just a dash of hipster cred (Semantic UI?).
 +	Standardization
 	+	Instead of having to build an entire application every year, having a template will allow our team to do less work. Plus, if you want it, take this template and build your own application! I recommend it for teaching students real-world skills. I won't be offended if you don't use our app.
+
+## Resources
+
+Here are a few articles and such that you might find handy, as you try and comprehend this repo.
+
++	[Devdocs](http://devdocs.io/) is a super handy documentation resource, and it includes Angular documentation.
++	[Resource for D3 resources](https://engineering.eventbrite.com/d3-js-resources-to-level-up/)
++	[Semantic UI docs](http://semantic-ui.com/)
++	Codecademy is cool for all sorts of things!
+	+	[D3 tutorial](http://www.codecademy.com/courses/web-beginner-en-kcP9b/0/1)
+	+	[AngularJS tutorial](http://www.codecademy.com/en/learn/learn-angularjs)
