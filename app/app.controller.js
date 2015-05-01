@@ -1,14 +1,3 @@
-(function () {
-	'use strict';
-
-	angular
-		.module('app.controllers')
-		.controller('AppController', AppController);
-
-	AppController.$inject = ['$rootScope'];
-
-	function AppController ($rootScope) {
-		// controller implementation
-	}
-
-})();
+app.controller("app.controller", ["$scope". function($scope) {
+	$scope.title = ""
+}]);
