@@ -11,4 +11,6 @@ h1 {
 .input {
 	display: table-cell;
 	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
 }

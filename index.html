@@ -84,10 +84,14 @@
 
 		<!-- NAVBAR -->
 		<div class="ui visible top horizontal labeled inverted icon sidebar very thin menu">
-			<a class="item disabled">
+			<a class="item">
 				<h1>TEAM 955 SCOUTING TEMP</h1>
 			</a>
-			<a class="item">
+			<a class="item" ng-repeat="item in menus">
+				<i class="{{ item.icon }}"></i>
+				{{ item.label }}
+			</a>
+<!--		<a class="item">
 				<i class="home icon"></i>
 				Home
 			</a>
@@ -115,6 +119,7 @@
 				<i class="download icon"></i>
 				Download Data
 			</a>
+-->
 			<a class="ui search">
 				<div class="ui icon input">
 					<input class="prompt" type="text" placeholder="Search for teams...">
