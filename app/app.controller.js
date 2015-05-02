@@ -1,6 +1,8 @@
-/* global app */
+//	Define the first controller
 app.controller("AppController",
-	["$scope", function($scope) {
+//	Declare the controller's scope
+	["$scope", function ($scope) {
+//		Object with navbar data
 		$scope.menus = [
 			{
 				icon: "home icon",
