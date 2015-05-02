@@ -6,31 +6,38 @@ app.controller("AppController",
 		$scope.menus = [
 			{
 				icon: "home icon",
-				label: "Home"
+				label: "Home",
+				tabHandler: "homeTab"
 			},
 			{
 				icon: "calendar icon",
-				label: "Schedule"
+				label: "Schedule",
+				tabHandler: "scheduleTab"
 			},
 			{
 				icon: "pie chart icon",
-				label: "Statistics"
+				label: "Statistics",
+				tabHandler: "statisticsTab"
 			},
 			{
 				icon: "sitemap icon",
-				label: "Alliance"
+				label: "Alliance",
+				tabHandler: "allianceTab"
 			},
 			{
 				icon: "calculator icon",
-				label: "OPR Calc"
+				label: "OPR Calc",
+				tabHandler: "oprCalcTab"
 			},
 			{
 				icon: "upload icon",
-				label: "Upload Data"
+				label: "Upload Data",
+				tabHandler: "uploadTab"
 			},
 			{
 				icon: "download icon",
-				label: "Download Data"
+				label: "Download Data",
+				tabHandler: "downloadTab"
 			}
 		];
 }]);
