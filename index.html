@@ -87,7 +87,7 @@
 			<a class="item">
 				<h1>TEAM 955 SCOUTING TEMP</h1>
 			</a>
-			<a ng-repeat="item in menus" class="item" id="{{ item.tabHandler }}">
+			<a ng-repeat="item in menus" class="item" id="{{ item.tabHandler }}" ng-click="displayModal()">
 				<i class="{{ item.icon }}"></i>
 				{{ item.label }}
 			</a>
@@ -119,49 +119,43 @@
 		<!-- END OPR CALC? -->
 		
 		<!-- UPLOAD MODAL -->
-		<div class="ui modal upload">
+		<div class="ui modal upload inverted">
 			<i class="close icon"></i>
 			<div class="header">
 				UPLOAD DATA
 			</div>
 			<div class="content">
-				<div class="image">
-					THERE BE AN IMAGE HERE
-				</div>
 				<div class="description">
-					THERE BE A DESCRIPTION HERE
+					Are you sure you want to merge a new JSON file? Some data will be adjusted.
 				</div>
 			</div>
 			<div class="actions">
-				<div class="ui button">OPTION 1</div>
-				<div class="ui button">OPTION 2</div>
+  				<div class="ui button">Cancel</div>
+  				<div class="ui positive button">Upload</div>
 			</div>
 		</div>
 		<!-- END UPLOAD MODAL -->
 		
 		<!-- DOWNLOAD MODAL -->
-		<div class="ui modal download">
+		<div class="ui modal download inverted">
 			<i class="close icon"></i>
 			<div class="header">
 				DOWNLOAD DATA
 			</div>
 			<div class="content">
-				<div class="image">
-					THERE BE AN IMAGE HERE
-				</div>
 				<div class="description">
-					THERE BE A DESCRIPTION HERE
+					Before you download the scouting data, hva you saved your latest match?
 				</div>
 			</div>
 			<div class="actions">
-				<div class="ui button">OPTION 1</div>
-				<div class="ui button">OPTION 2</div>
+				<div class="ui button">Cancel</div>
+				<div class="ui positive button">Download</div>
 			</div>
 		</div>
 		<!-- END DOWNLOAD MODAL -->
 		
 		<!-- SETTINGS MODAL -->
-		<div class="ui modal settings">
+		<div class="ui modal settings inverted">
 			<i class="close icon"></i>
 			<div class="header">
 				SETTINGS

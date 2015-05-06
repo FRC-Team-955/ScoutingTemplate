@@ -39,5 +39,9 @@ app.controller("AppController",
 				label: "Download Data",
 				tabHandler: "downloadTab"
 			}
-		];
+		],
+
+		$scope.displayModal = function showModal() {
+			$(".ui.modal.upload").modal("show");
+		};
 }]);
